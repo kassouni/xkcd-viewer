@@ -28,6 +28,7 @@
 		807BD14024601A0E007A0D34 /* xkcd_viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xkcd_viewer.entitlements; sourceTree = "<group>"; };
 		809F408B247515300035613B /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		809F4091247521530035613B /* ComicImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicImageLoader.swift; sourceTree = "<group>"; };
+		80C7404824753DA40019595E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		80D6535C246EA7070070E3BC /* ComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +65,7 @@
 				807BD13324601A03007A0D34 /* AppDelegate.swift */,
 				809F4091247521530035613B /* ComicImageLoader.swift */,
 				809F408B247515300035613B /* AsyncImage.swift */,
+				80C7404824753DA40019595E /* README.md */,
 				80D6535C246EA7070070E3BC /* ComicView.swift */,
 				807BD13524601A03007A0D34 /* ContentView.swift */,
 				807BD13724601A0D007A0D34 /* Assets.xcassets */,

@@ -33,6 +33,7 @@ private struct TooltipView: NSViewRepresentable {
     }
 }
 
+// adapted from https://www.vadimbulavin.com/asynchronous-swiftui-image-loading-from-url-with-combine-and-swift/
 struct AsyncImage<Placeholder: View>: View {
     
     @ObservedObject private var loader: ComicImageLoader
