@@ -12,6 +12,9 @@
 		807BD13824601A0D007A0D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807BD13724601A0D007A0D34 /* Assets.xcassets */; };
 		807BD13B24601A0D007A0D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807BD13A24601A0D007A0D34 /* Preview Assets.xcassets */; };
 		807BD13E24601A0E007A0D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807BD13C24601A0E007A0D34 /* Main.storyboard */; };
+		809F408C247515300035613B /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F408B247515300035613B /* AsyncImage.swift */; };
+		809F4092247521530035613B /* ComicImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F4091247521530035613B /* ComicImageLoader.swift */; };
+		80D6535D246EA7070070E3BC /* ComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6535C246EA7070070E3BC /* ComicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		807BD13D24601A0E007A0D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		807BD13F24601A0E007A0D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807BD14024601A0E007A0D34 /* xkcd_viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xkcd_viewer.entitlements; sourceTree = "<group>"; };
+		809F408B247515300035613B /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		809F4091247521530035613B /* ComicImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicImageLoader.swift; sourceTree = "<group>"; };
+		80D6535C246EA7070070E3BC /* ComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				807BD13324601A03007A0D34 /* AppDelegate.swift */,
+				809F4091247521530035613B /* ComicImageLoader.swift */,
+				809F408B247515300035613B /* AsyncImage.swift */,
+				80D6535C246EA7070070E3BC /* ComicView.swift */,
 				807BD13524601A03007A0D34 /* ContentView.swift */,
 				807BD13724601A0D007A0D34 /* Assets.xcassets */,
 				807BD13C24601A0E007A0D34 /* Main.storyboard */,
@@ -145,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D6535D246EA7070070E3BC /* ComicView.swift in Sources */,
 				807BD13624601A03007A0D34 /* ContentView.swift in Sources */,
+				809F408C247515300035613B /* AsyncImage.swift in Sources */,
 				807BD13424601A03007A0D34 /* AppDelegate.swift in Sources */,
+				809F4092247521530035613B /* ComicImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.15.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "kassouni.xkcd-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -316,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.15.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "kassouni.xkcd-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
